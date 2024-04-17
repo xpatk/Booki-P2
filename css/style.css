@@ -30,6 +30,12 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: rgb(0, 101, 252);
+  border-top: 1px solid rgb(0, 101, 252);
+  padding-top: 36px;
+}
+
 .section-title {
   margin: 0;
   font-size: 22px;
