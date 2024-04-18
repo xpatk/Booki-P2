@@ -87,10 +87,18 @@ nav a {
 
 .formulaire-recherche {
   display: flex;
+  flex-direction: row;
   align-items: center;
   width: 377px;
   height: 49px;
   border-radius: 50px;
+}
+
+.formulaire-recherche-location {
+  width: 10%;
+  background-color: #873030;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .fa-solid {
@@ -109,6 +117,16 @@ button[type="submit"] {
   border: none;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  outline: none;
+}
+
+button[type="button"] {
+  padding: 8px 16px;
+  background-color: #f2f2f2;
+  color: white;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   outline: none;
 }
 

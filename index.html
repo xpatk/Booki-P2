@@ -28,7 +28,11 @@
     <div class="main-container">
       <header>
         <nav>
-          <img src="/images/logo/Booki.png" alt="Logo Booki" class="logo-small"/>
+          <img
+            src="/images/logo/Booki.png"
+            alt="Logo Booki"
+            class="logo-small"
+          />
           <div>
             <a href="#">Hébergements</a>
             <a href="#">Activités</a>
@@ -40,9 +44,11 @@
           <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
           <p>En plein centre ville ou en pleine nature</p>
         </div>
-        <div class="formulaire-recherche">
-          <form action="" method="get">
-            <i class="fa-solid fa-location-dot"></i>
+        <div>
+          <form action="" method="get" class="formulaire-recherche">
+            <button type="button" disabled>
+              <i class="fa-solid fa-location-dot"></i>
+            </button>
             <input
               type="text"
               id="search"
@@ -54,13 +60,21 @@
         </div>
 
         <div>
-            <div class="filtres-wrapper">
-                <h3>Filtres</h3>
-                <button class="btn" onclick="filterSelection('Economique')">Economique</button>
-                <button class="btn" onclick="filterSelection('Familial')">Familial</button>
-                <button class="btn" onclick="filterSelection('Romantique')">Romantique</button>
-                <button class="btn" onclick="filterSelection('NosPepites')">Nos pepites</button>
-            </div>
+          <div class="filtres-wrapper">
+            <h3>Filtres</h3>
+            <button class="btn" onclick="filterSelection('Economique')">
+              Economique
+            </button>
+            <button class="btn" onclick="filterSelection('Familial')">
+              Familial
+            </button>
+            <button class="btn" onclick="filterSelection('Romantique')">
+              Romantique
+            </button>
+            <button class="btn" onclick="filterSelection('NosPepites')">
+              Nos pepites
+            </button>
+          </div>
         </div>
 
         <div class="hebergements-and-populaires">
@@ -69,33 +83,33 @@
               <h2 class="section-title">Hébergements a Marseille</h2>
             </div>
             <div class="hebergements-cards">
-                <a href="#">
-                    <article class="card">
-                      <img
-                        src="./images/hebergements/fred-kleber.jpg"
-                        alt="Image de la chambre d'hôtel montrant un lit"
-                      />
-                      <div class="card-content">
-                        <div class="card-txt">
-                          <h3 class="card-title">Hôtel Le soleil du matin</h3>
-                          <p class="card-subtitle">
-                            Nuit à partir de 128<span class="euro">€</span>
-                          </p>
-                        </div>
-                        <div class="card-rating">
-                          <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                          <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                          <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                          <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                          <i
-                            class="fa-xs fa-solid fa-star neutral-star"
-                            aria-hidden="true"
-                          ></i>
-                          <span class="sr-only">Note de 4 sur 5</span>
-                        </div>
-                      </div>
-                    </article>
-                  </a>
+              <a href="#">
+                <article class="card">
+                  <img
+                    src="./images/hebergements/fred-kleber.jpg"
+                    alt="Image de la chambre d'hôtel montrant un lit"
+                  />
+                  <div class="card-content">
+                    <div class="card-txt">
+                      <h3 class="card-title">Hôtel Le soleil du matin</h3>
+                      <p class="card-subtitle">
+                        Nuit à partir de 128<span class="euro">€</span>
+                      </p>
+                    </div>
+                    <div class="card-rating">
+                      <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                      <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                      <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                      <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                      <i
+                        class="fa-xs fa-solid fa-star neutral-star"
+                        aria-hidden="true"
+                      ></i>
+                      <span class="sr-only">Note de 4 sur 5</span>
+                    </div>
+                  </div>
+                </article>
+              </a>
             </div>
           </section>
 
