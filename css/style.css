@@ -110,6 +110,7 @@ input[type="text"] {
   padding: 12px;
   border: none;
 }
+
 button[type="submit"] {
   padding: 8px 16px;
   background-color: #0065fc;
@@ -155,9 +156,10 @@ button[type="button"] {
 }
 
 .btn {
-  border: 1px solid #deebff;
+  border: 2px solid #d9d9d9;
   background-color: white;
-  padding: 8px 10px;
+  height: 50px;
+  width: 173px;
   cursor: pointer;
   border-radius: 36px;
   margin-left: 25px;
