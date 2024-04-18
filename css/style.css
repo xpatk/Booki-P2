@@ -78,12 +78,18 @@ nav a {
   margin-right: 40px;
 }
 
+.logo-small {
+  height: 19px;
+  width: 61.09px;
+}
+
 /****** Formulaire ***********/
 
 .formulaire-recherche {
   display: flex;
   align-items: center;
-  max-width: 400px;
+  width: 377px;
+  height: 49px;
   border-radius: 50px;
 }
 
