@@ -114,6 +114,7 @@ button[type="submit"] {
   border-bottom-right-radius: 10px;
   outline: none;
   font-weight: bold;
+  cursor: pointer;
 }
 
 button[type="button"] {
@@ -159,6 +160,10 @@ button[type="button"] {
   cursor: pointer;
   border-radius: 36px;
   margin-left: 25px;
+}
+
+.btn:hover {
+  background-color: #deebff;
 }
 
 /****** Hebergements ***********/
