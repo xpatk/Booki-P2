@@ -94,13 +94,6 @@ nav a {
   border-radius: 50px;
 }
 
-.formulaire-recherche-location {
-  width: 10%;
-  background-color: #873030;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-}
-
 .fa-solid {
   color: black;
   size: 1.5em;
@@ -119,6 +112,7 @@ button[type="submit"] {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   outline: none;
+  font-weight: bold;
 }
 
 button[type="button"] {
