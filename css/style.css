@@ -146,6 +146,7 @@ button[type="button"] {
   border-radius: 36px;
   margin-left: 25px;
   font-weight: bold;
+  font-size: 1.1em;
 }
 
 .btn:hover {
