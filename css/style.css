@@ -86,14 +86,16 @@ nav a {
 
 /****** Formulaire ***********/
 
+.div-form-recherche {
+  margin-top: 30px;
+}
+
 .formulaire-recherche {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 377px;
-  height: 49px;
   border-radius: 50px;
-  margin-top: 20px;
+  height: 2.5em;
 }
 
 .fa-solid {
@@ -102,8 +104,12 @@ nav a {
 }
 
 input[type="text"] {
-  padding: 12px;
-  border: none;
+  height: 100%;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  border-right: none;
+  border-left: none;
+  box-sizing: border-box;
 }
 
 button[type="submit"] {
@@ -116,16 +122,18 @@ button[type="submit"] {
   outline: none;
   font-weight: bold;
   cursor: pointer;
+  height: 100%;
 }
 
-button[type="button"] {
+.icon-location {
   padding: 8px 16px;
-  background-color: #f2f2f2;
-  color: white;
+  background-color: #d9d9d9;
   border: none;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   outline: none;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 /****** Filtres ***********/
@@ -134,8 +142,10 @@ button[type="button"] {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  align-items: center;
   margin-top: 30px;
   margin-bottom: 30px;
+  height: 3em;
 }
 
 .btn {
@@ -164,7 +174,7 @@ button[type="button"] {
 .hebergements-and-populaires {
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .hebergements-and-populaires section {
