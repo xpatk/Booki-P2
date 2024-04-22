@@ -309,8 +309,10 @@ button[type="submit"] {
 
 /****** Activites ***********/
 
-.activites-a-marseille{
-    
+.activites-a-marseille .cards-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
