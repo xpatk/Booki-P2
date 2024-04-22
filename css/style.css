@@ -98,6 +98,20 @@ nav a {
   height: 2.5em;
 }
 
+.icon-location {
+  padding: 8px 16px;
+  background-color: #d9d9d9;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  outline: none;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .fa-solid {
   color: black;
   size: 1.5em;
@@ -123,17 +137,6 @@ button[type="submit"] {
   font-weight: bold;
   cursor: pointer;
   height: 100%;
-}
-
-.icon-location {
-  padding: 8px 16px;
-  background-color: #d9d9d9;
-  border: none;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  outline: none;
-  height: 100%;
-  box-sizing: border-box;
 }
 
 /****** Filtres ***********/
