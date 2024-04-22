@@ -240,14 +240,13 @@ button[type="submit"] {
   border-top-right-radius: 20px;
 }
 
-.rang1cards .card-content {
+.hebergements-cards .card-content {
+  height: 45%;
   padding-left: 10px;
   display: flex;
   flex-direction: column;
-  align-content: space-between;
   justify-content: space-between;
   box-sizing: border-box;
-  width: auto;
 }
 
 .hebergements-cards .card-title {
