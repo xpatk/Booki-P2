@@ -217,6 +217,7 @@ button[type="submit"] {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .rang1cards .card {
@@ -235,7 +236,6 @@ button[type="submit"] {
 }
 
 .rang1cards .card-content {
-  width: 67%;
   padding-left: 10px;
   display: flex;
   flex-direction: column;
