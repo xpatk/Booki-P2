@@ -3,6 +3,11 @@
   font-family: "Raleway", sans-serif;
 }
 
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
   --main-color: #0065fc;
   --main-bg-color: #f2f2f2;
@@ -223,14 +228,14 @@ button[type="submit"] {
 .rang1cards .card {
   display: flex;
   flex-direction: column;
-  margin-top: 33px;
-  width: 250px;
-  height: 230px;
+  margin-top: 2em;
+  width: 15.5em;
+  height: 14em;
 }
 
 .hebergements-cards img {
   width: 100%;
-  height: 130px;
+  height: 8em;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -240,6 +245,9 @@ button[type="submit"] {
   display: flex;
   flex-direction: column;
   align-content: space-between;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: auto;
 }
 
 .hebergements-cards .card-title {
