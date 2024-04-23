@@ -321,8 +321,8 @@ button[type="submit"] {
 }
 
 .activites-a-marseille .cards-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: 0;
   padding: 0;
 }
@@ -338,8 +338,9 @@ button[type="submit"] {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  width: 40%;
+  width: 80%;
   padding: 0;
+  margin-bottom: 20px;
 }
 
 .activites-a-marseille .card img {
@@ -347,6 +348,10 @@ button[type="submit"] {
   max-width: 100%;
   vertical-align: middle;
   object-fit: cover;
+}
+
+.activites-a-marseille .card .card-subtitle {
+  margin: 0;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
