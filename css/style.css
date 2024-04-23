@@ -315,6 +315,10 @@ button[type="submit"] {
 
 /****** Activites ***********/
 
+.activites-a-marseille {
+  margin-bottom: 30px;
+}
+
 .activites-a-marseille .section-title {
   margin-top: 30px;
   margin-bottom: 30px;
