@@ -358,6 +358,35 @@ button[type="submit"] {
   margin: 0;
 }
 
+/****** Footer ***********/
+
+footer {
+  background-color: #d9d9d9;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+ul[title]::before {
+  content: attr(title);
+  display: block;
+  font-weight: bold;
+  padding-bottom: 1em;
+}
+
+ul li {
+  list-style-type: none;
+  line-height: 2em;
+}
+
+.column {
+  padding-right: 12em;
+  padding-top: 1em;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
