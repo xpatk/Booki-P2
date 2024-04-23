@@ -27,7 +27,7 @@ body {
 .main-container {
   width: 100%;
   max-width: 1440px;
-  padding: 0 50px;
+  padding: 0 35px;
   box-sizing: border-box;
 }
 
@@ -209,7 +209,7 @@ button[type="submit"] {
 .hebergements-and-populaires section {
   background-color: var(--main-bg-color);
   border-radius: 20px;
-  padding: 30px;
+  padding: 20px;
   box-sizing: border-box;
 }
 
@@ -229,8 +229,8 @@ button[type="submit"] {
   display: flex;
   flex-direction: column;
   margin-top: 2em;
-  width: 15em;
-  height: 12em;
+  width: 14em;
+  height: 11em;
 }
 
 .hebergements-cards img {
@@ -260,6 +260,11 @@ button[type="submit"] {
 
 .hebergements-cards .card-rating {
   margin-bottom: 5px;
+}
+
+.afficher-plus {
+  position: relative;
+  top: 3rem;
 }
 
 /****** Populaires ***********/
@@ -310,22 +315,43 @@ button[type="submit"] {
 
 /****** Activites ***********/
 
-.section-title {
+.activites-a-marseille .section-title {
   margin: 30px;
 }
 .activites-a-marseille {
   width: 100%;
-}
-
-.cards-container {
-  display: flex;
-  flex-direction: row;
+  margin-bottom: 20px;
 }
 
 .activites-a-marseille .cards-container {
   display: flex;
-  justify-content: space-between;
-  margin-top: 30px;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.activites-a-marseille .cards_item {
+  display: flex;
+  padding: 1em;
+}
+
+.activites-a-marseille .card {
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 40%;
+}
+
+.activites-a-marseille .card .card-subtitle {
+  margin: 0;
+}
+
+.activites-a-marseille .card img {
+  height: 350px;
+  max-width: 100%;
+  vertical-align: middle;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -368,15 +394,4 @@ button[type="submit"] {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
   /* ... */
-
-  .populaires-cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .activites-a-marseille {
-    display: flex;
-    flex-direction: column;
-  }
 }
