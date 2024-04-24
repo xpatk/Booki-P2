@@ -320,7 +320,7 @@ button[type="submit"] {
 }
 
 .activites-a-marseille .section-title {
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 30px;
 }
 
@@ -341,7 +341,7 @@ button[type="submit"] {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  width: 80%;
+  width: 90%;
   padding: 0;
   margin-bottom: 20px;
 }
@@ -361,7 +361,7 @@ button[type="submit"] {
 /****** Footer ***********/
 
 footer {
-  background-color: #d9d9d9;
+  background-color: #f2f2f2;
 }
 
 .footer-container {
