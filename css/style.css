@@ -440,17 +440,29 @@ ul li {
 @media (max-width: 767.98px) {
   /* ... */
 
+  h1 {
+    font-size: 1.5em;
+  }
+
   nav {
     flex-direction: column;
   }
 
   nav .logo-small {
     align-self: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   nav div {
     align-self: center;
+    margin-bottom: -20px;
+  }
+
+  nav a:hover {
+    border-top: none;
+    color: rgb(0, 101, 252);
+    border-bottom: 1px solid rgb(0, 101, 252);
+    padding-bottom: 18px;
   }
 
   .activites-a-marseille .cards-container {
