@@ -161,7 +161,6 @@ button[type="submit"] {
   align-items: center;
   margin-top: 30px;
   margin-bottom: 30px;
-  height: 3em;
 }
 
 .btn {
@@ -173,6 +172,8 @@ button[type="submit"] {
   font-weight: bold;
   font-size: 1.1em;
   padding: 1% 2%;
+  min-width: 150px;
+  min-height: 40px;
 }
 
 .btn:hover {
@@ -180,8 +181,7 @@ button[type="submit"] {
 }
 
 .btn > i {
-  margin-right: 10px;
-  margin-left: -10px;
+  margin-right: 5px;
   color: #0065fc;
 }
 
@@ -446,7 +446,7 @@ ul li {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-  /* ... */
+  /****** Mobile nav ***********/
 
   h1 {
     font-size: 1.5em;
@@ -473,6 +473,13 @@ ul li {
     padding-bottom: 18px;
   }
 
+  /****** Mobile searchbar ***********/
+
+  .div-form-recherche {
+    display: flex;
+    justify-content: center;
+  }
+
   .div-form-recherche button[type="submit"] {
     display: flex;
     justify-content: center;
@@ -488,6 +495,14 @@ ul li {
     display: block;
     color: white;
   }
+
+  /****** Mobile filtres ***********/
+
+  .filtres-wrapper {
+    flex-wrap: wrap;
+  }
+
+  /****** Mobile activites ***********/
 
   .activites-a-marseille .cards-container {
     display: grid;
