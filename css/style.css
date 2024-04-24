@@ -144,6 +144,10 @@ button[type="submit"] {
   height: 100%;
 }
 
+.fa-magnifying-glass {
+  display: none;
+}
+
 /****** Filtres ***********/
 
 .filtres-wrapper {
@@ -463,6 +467,16 @@ ul li {
     color: rgb(0, 101, 252);
     border-bottom: 1px solid rgb(0, 101, 252);
     padding-bottom: 18px;
+  }
+
+  .div-form-recherche button[type="submit"] .text {
+    font-size: 0;
+    line-height: 0;
+  }
+
+  .fa-magnifying-glass {
+    display: block;
+    color: white;
   }
 
   .activites-a-marseille .cards-container {
