@@ -531,6 +531,7 @@ ul li {
     padding: 0;
     justify-content: center;
   }
+
   .filtres-wrapper > * {
     flex: 1 1 300px;
     margin: 5px;
@@ -555,7 +556,7 @@ ul li {
   .btn {
     max-width: 45%;
     width: 160px;
-    height: 40px;
+    height: 50px;
   }
 
   /****** Mobile hebergements and populaires order ***********/
@@ -584,6 +585,11 @@ ul li {
     border-radius: 0;
   }
 
+  .populaires-title {
+    margin-top: 5px;
+    margin-bottom: -20px;
+  }
+
   .populaires-cards {
     display: flex;
     flex-direction: column;
@@ -597,7 +603,11 @@ ul li {
   /****** Mobile hebergements ***********/
 
   .hebergements {
-    margin: 0;
+    margin: 20px 0 0 0;
+  }
+
+  .hebergements .section-title {
+    margin-bottom: -10px;
   }
 
   .hebergements-and-populaires section {
@@ -623,6 +633,7 @@ ul li {
 
   .activites-a-marseille {
     padding: 10px;
+    margin-top: 20px;
   }
 
   .activites-a-marseille .cards-container {
