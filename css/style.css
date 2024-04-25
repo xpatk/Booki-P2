@@ -133,7 +133,7 @@ input[type="text"] {
 }
 
 button[type="submit"] {
-  padding: 8px 16px;
+  padding: 8px 15px;
   background-color: #0065fc;
   color: white;
   border: none;
@@ -157,7 +157,6 @@ button[type="submit"] {
 
 .filtres-wrapper {
   display: flex;
-  flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   margin-top: 30px;
@@ -173,7 +172,7 @@ button[type="submit"] {
   font-weight: bold;
   font-size: 1.1em;
   padding: 1% 2%;
-  min-width: 150px;
+  min-width: 100px;
   min-height: 40px;
 }
 
@@ -231,7 +230,7 @@ button[type="submit"] {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .rang1cards .card {
@@ -500,7 +499,52 @@ ul li {
   /****** Mobile filtres ***********/
 
   .filtres-wrapper {
+    display: flex;
     flex-wrap: wrap;
+  }
+  .filtres-wrapper > * {
+    flex: 1 1 160px;
+    margin: 10px;
+  }
+
+  .filtres-wrapper h3 {
+    order: 1;
+    flex-basis: 100%;
+    padding-bottom: 10px;
+  }
+
+  .element1,
+  .element2 {
+    order: 2;
+  }
+
+  .element3,
+  .element4 {
+    order: 3;
+  }
+  .btn {
+    margin: 0px;
+    max-width: 50%;
+  }
+
+  /****** Mobile hebergements ***********/
+
+  .hebergements {
+    width: 100%;
+  }
+
+  .hebergements-and-populaires section {
+    background-color: white;
+    padding: 10px;
+  }
+
+  .rang1cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rang1cards .card {
+    width: 20em;
   }
 
   /****** Mobile activites ***********/
