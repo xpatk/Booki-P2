@@ -133,7 +133,10 @@ input[type="text"] {
 }
 
 button[type="submit"] {
-  padding: 8px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
   background-color: #0065fc;
   color: white;
   border: none;
