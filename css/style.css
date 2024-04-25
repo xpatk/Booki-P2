@@ -541,6 +541,23 @@ ul li {
     height: 40px;
   }
 
+  /****** Mobile hebergements and populaires order ***********/
+
+  .hebergements-and-populaires {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .hebergements {
+    order: 2;
+    width: 100%;
+  }
+
+  .populaires {
+    order: 1;
+    width: 100%;
+  }
+
   /****** Mobile hebergements ***********/
 
   .hebergements {
