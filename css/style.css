@@ -327,6 +327,12 @@ button[type="submit"] {
   margin-bottom: 30px;
 }
 
+.activites-a-marseille .card-subtitle {
+  height: 3em;
+  text-align: center;
+  padding-top: 1em;
+}
+
 .activites-a-marseille .section-title {
   margin-top: 40px;
   margin-bottom: 30px;
@@ -501,10 +507,14 @@ ul li {
   .filtres-wrapper {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    justify-content: center;
   }
   .filtres-wrapper > * {
-    flex: 1 1 160px;
-    margin: 10px;
+    flex: 1 1 300px;
+    margin: 5px;
   }
 
   .filtres-wrapper h3 {
@@ -523,8 +533,9 @@ ul li {
     order: 3;
   }
   .btn {
-    margin: 0px;
-    max-width: 50%;
+    max-width: 45%;
+    width: 160px;
+    height: 40px;
   }
 
   /****** Mobile hebergements ***********/
