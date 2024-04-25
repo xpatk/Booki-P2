@@ -120,7 +120,7 @@ nav a {
 
 .fa-location-dot {
   color: black;
-  size: 1.5em;
+  resize: 1.5em;
 }
 
 input[type="text"] {
