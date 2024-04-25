@@ -332,7 +332,7 @@ button[type="submit"] {
 .activites-a-marseille .card-subtitle {
   height: 3em;
   text-align: center;
-  padding-top: 1em;
+  padding-top: 0.8em;
 }
 
 .activites-a-marseille .section-title {
@@ -610,7 +610,7 @@ ul li {
   }
 
   .rang1cards .card {
-    width: 20em;
+    width: 23em;
   }
 
   .afficher-plus {
@@ -630,19 +630,24 @@ ul li {
   }
 
   .activites-a-marseille .cards-item {
-    width: 400px;
-    margin-bottom: 20px;
+    width: 25em;
+    margin-bottom: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
   .activites-a-marseille .card img {
-    height: 250px;
+    height: 200px;
     border-radius: 10px;
   }
 
   .activites-a-marseille .section-title {
     margin-left: 10px;
+  }
+
+  .activites-a-marseille .card-subtitle {
+    text-align: left;
+    height: 2em;
   }
 }
