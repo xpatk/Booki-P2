@@ -45,7 +45,7 @@ nav a:hover {
 
 .section-title {
   margin: 0;
-  font-size: 22px;
+  font-size: 1.5em;
 }
 
 .card {
@@ -233,7 +233,6 @@ button[type="submit"] {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* flex-wrap: wrap; */
 }
 
 .rang1cards .card {
@@ -455,10 +454,27 @@ ul li {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+  /****** General ***********/
+
+  .main-container {
+    margin: 0;
+    padding: 0;
+  }
+
+  .section-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+  }
   /****** Mobile nav ***********/
 
   h1 {
     font-size: 1.5em;
+    padding: 20px 20px 0 20px;
+  }
+
+  .below-title {
+    padding: 0px 20px 0 20px;
   }
 
   nav {
@@ -472,7 +488,7 @@ ul li {
 
   nav div {
     align-self: center;
-    margin-bottom: -20px;
+    margin-bottom: -50px;
   }
 
   nav a:hover {
@@ -520,10 +536,11 @@ ul li {
     margin: 5px;
   }
 
-  .filtres-wrapper h3 {
+  .filtres-wrapper .section-title {
     order: 1;
     flex-basis: 100%;
     padding-bottom: 10px;
+    margin-left: 20px;
   }
 
   .element1,
@@ -546,6 +563,7 @@ ul li {
   .hebergements-and-populaires {
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
   }
 
   .hebergements {
@@ -558,15 +576,32 @@ ul li {
     width: 100%;
   }
 
+  /****** Populaires***********/
+
+  .hebergements-and-populaires .populaires {
+    background-color: #f2f2f2;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .populaires-cards {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .populaires-cards a {
+    width: 100%;
+  }
+
   /****** Mobile hebergements ***********/
 
   .hebergements {
-    width: 100%;
+    margin: 0;
   }
 
   .hebergements-and-populaires section {
     background-color: white;
-    padding: 10px;
   }
 
   .rang1cards {
@@ -578,18 +613,36 @@ ul li {
     width: 20em;
   }
 
+  .afficher-plus {
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+  }
+
   /****** Mobile activites ***********/
 
+  .activites-a-marseille {
+    padding: 10px;
+  }
+
   .activites-a-marseille .cards-container {
-    display: grid;
     grid-template-columns: 1fr;
-    margin: 0;
-    padding: 0;
+  }
+
+  .activites-a-marseille .cards-item {
+    width: 400px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .activites-a-marseille .card img {
-    max-width: 100%;
-    vertical-align: middle;
-    object-fit: cover;
+    height: 250px;
+    border-radius: 10px;
+  }
+
+  .activites-a-marseille .section-title {
+    margin-left: 10px;
   }
 }
