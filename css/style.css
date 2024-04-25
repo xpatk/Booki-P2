@@ -204,8 +204,8 @@ button[type="submit"] {
   align-items: center;
   border: 1px solid grey;
   border-radius: 50%;
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -238,7 +238,7 @@ button[type="submit"] {
   display: flex;
   flex-direction: column;
   margin-top: 2em;
-  width: 15em;
+  width: 14em;
   height: 11em;
 }
 
@@ -561,6 +561,10 @@ ul li {
     max-width: 45%;
     width: 160px;
     height: 50px;
+  }
+
+  .info {
+    padding: 5px 20px 5px 20px;
   }
 
   /****** Mobile hebergements and populaires order ***********/
