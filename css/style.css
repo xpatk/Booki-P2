@@ -382,8 +382,6 @@ footer {
 
 .footer-container {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
 }
 
 ul[title]::before {
@@ -714,6 +712,7 @@ ul li {
 
   .hebergements {
     margin: 20px 0 0 0;
+    width: 100%;
   }
 
   .hebergements .section-title {
@@ -729,22 +728,22 @@ ul li {
     align-items: center;
   }
 
-  .rang1cards .card {
-    min-width: 18em;
-    max-width: 26em;
+  .rang1cards a {
+    width: 100%;
+    height: 200px;
   }
 
   .afficher-plus {
     position: relative;
-    top: 1rem;
-    left: 1rem;
+    top: 30px;
+    left: 20 px;
   }
 
   /****** Mobile activites ***********/
 
   .activites-a-marseille {
     padding: 10px;
-    margin-top: 20px;
+    width: 100%;
   }
 
   .activites-a-marseille .cards-container {
@@ -752,7 +751,8 @@ ul li {
   }
 
   .activites-a-marseille .cards-item {
-    max-width: 26em;
+    width: 100%;
+    height: 300px;
     margin-bottom: 8px;
     display: flex;
     align-items: center;
