@@ -728,7 +728,7 @@ ul li {
 
   .rang1cards .card {
     min-width: 18em;
-    max-width: 20em;
+    max-width: 26em;
   }
 
   .afficher-plus {
@@ -749,7 +749,7 @@ ul li {
   }
 
   .activites-a-marseille .cards-item {
-    max-width: 20em;
+    max-width: 26em;
     margin-bottom: 8px;
     display: flex;
     align-items: center;
