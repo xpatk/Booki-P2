@@ -556,6 +556,11 @@ ul li {
 @media (max-width: 767.98px) {
   /****** General ***********/
 
+  .main-container {
+    margin: 0;
+    padding: 0;
+  }
+
   .section-title {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -583,16 +588,32 @@ ul li {
     margin-bottom: 30px;
   }
 
-  nav div {
-    align-self: center;
-    margin-bottom: -50px;
+  nav .links {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+
+  nav a {
+    flex-grow: 1;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 0;
+  }
+
+  #hebergements-anchor {
+    flex-grow: 1;
+  }
+
+  #activites-anchor {
+    flex-grow: 1;
   }
 
   nav a:hover {
     border-top: none;
     color: rgb(0, 101, 252);
-    border-bottom: 1px solid rgb(0, 101, 252);
-    padding-bottom: 18px;
+    border-bottom: 2px solid rgb(0, 101, 252);
+    padding: 0;
   }
 
   /****** Mobile searchbar ***********/
@@ -604,6 +625,7 @@ ul li {
   }
 
   form.formulaire-recherche {
+    margin-right: 15px;
     height: 48px;
     display: flex;
     flex-grow: 1;
@@ -750,7 +772,7 @@ ul li {
   .afficher-plus {
     position: relative;
     top: 30px;
-    left: 20 px;
+    left: 20px;
   }
 
   /****** Mobile activites ***********/
