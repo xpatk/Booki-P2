@@ -40,7 +40,7 @@ a {
 nav a:hover {
   color: rgb(0, 101, 252);
   border-top: 2px solid rgb(0, 101, 252);
-  padding-top: 28px;
+  padding-top: 29px;
 }
 
 .section-title {
@@ -771,8 +771,8 @@ ul li {
 
   .afficher-plus {
     position: relative;
-    top: 30px;
-    left: 20px;
+    top: 40px;
+    left: 10px;
   }
 
   /****** Mobile activites ***********/
