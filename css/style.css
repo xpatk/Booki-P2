@@ -280,7 +280,7 @@ button[type="submit"] {
 
 .afficher-plus {
   position: relative;
-  top: 1.5rem;
+  top: 24px;
 }
 
 /****** Populaires ***********/
@@ -373,7 +373,7 @@ button[type="submit"] {
 
 .activites-a-marseille h3 {
   margin: 0;
-  padding-left: 0.7em;
+  padding-left: 11px;
 }
 
 /****** Footer ***********/
@@ -779,7 +779,8 @@ ul li {
   /****** Mobile activites ***********/
 
   .activites-a-marseille {
-    margin: 20px;
+    margin: 0;
+    padding: 30px;
   }
 
   .activites-a-marseille .cards-container {
@@ -806,10 +807,10 @@ ul li {
 
   .activites-a-marseille .card-subtitle {
     text-align: left;
-    height: 2em;
+    height: 32px;
   }
 
-  /****** Mobile activites ***********/
+  /****** Footer ***********/
 
   .footer-container {
     flex-direction: column;
