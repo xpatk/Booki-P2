@@ -368,7 +368,6 @@ button[type="submit"] {
   height: 370px;
   max-width: 100%;
   vertical-align: middle;
-  object-fit: cover;
 }
 
 .activites-a-marseille h3 {
@@ -538,7 +537,6 @@ ul li {
     height: 170px;
     max-width: 100%;
     vertical-align: middle;
-    object-fit: cover;
   }
 
   /****** Footer ***********/
@@ -798,7 +796,6 @@ ul li {
 
   .activites-a-marseille .card img {
     height: 200px;
-    border-radius: 10px;
   }
 
   .activites-a-marseille .section-title {
